@@ -12,14 +12,18 @@
   "finite_checkpoint": true,
   "checkpoint_sha256": "8a9b66c1b3a49e899b9a05b8b5ed9f78898f90fda708b8fc0099816ca08d66a1",
   "submission_sha256": "99372484f170abb603a332d753ab8d62e58c726bb745389cd71a05caa94d6413",
-  "kaggle_score_verified": false,
+  "kaggle_score_verified": true,
   "notebook_code_cells_executed": 4,
   "notebook_errors": 0,
   "report_pages": 6,
-  "report_visual_qa": "All six pages inspected; page6 re-rendered and inspected after text correction. No layout defects.",
+  "report_visual_qa": "Six pages; updated pages 1 and 6 rendered and visually inspected with no defects.",
   "report_is_review_draft": false,
-  "report_sha256": "50a57d32638a70fae182e2a00bf8226b16ae163cd752e8e4adbc93c413b123b2",
+  "report_sha256": "1cb543a4b2211a5bc65a28aa1a48675bc2d5e862c8db0c34ecd3185cee6fb9a6",
   "pipeline_exit_code": 0,
   "github_url": "https://github.com/Pengxiao-Yu/dl-project1-cifar-resnet",
-  "brightspace_submission_id": "11537038"
+  "brightspace_submission_id": "11537038",
+  "kaggle_private_score": 0.817,
+  "kaggle_public_score": 0.834,
+  "kaggle_submission_status": "Complete (after deadline)",
+  "team_registration_verified": true
 }

@@ -144,7 +144,7 @@ def main():
         add("REVIEW DRAFT - publication and submission pending", "SmallX")
     add("A CIFAR Residual Network Under Five Million Parameters", "H1X")
     add(
-        "Pengxiao Yu (py2352) | Individual project<br/>Deep Learning, Fall 2026",
+        "Pengxiao Yu (py2352) | Individual project<br/>Deep Learning, Fall 2026<br/>Kaggle team: Pengxiao | Username: pengxiao0214",
         "BodyX",
     )
     add(
@@ -156,7 +156,7 @@ def main():
         "This project adapts a basic-block residual network to 32 x 32 color images under a strict model-size budget. It uses a narrow CIFAR stem, four residual stages and global average pooling. All weights are initialized from scratch; the training pipeline uses only images and labels provided in the competition archive."
     )
     add(
-        f'The network has <b>{s["parameters"]:,} trainable parameters</b>. In one fixed-seed run of {len(h)} epochs, the selected checkpoint at epoch {best} achieved <b>{acc:.2f}% accuracy</b> on the fixed validation partition. Any verified competition score is reported separately below. A public leaderboard score applies to its scored subset; private-test accuracy requires separate verification.'
+        f'The network has <b>{s["parameters"]:,} trainable parameters</b>. In one fixed-seed run of {len(h)} epochs, the selected checkpoint at epoch {best} achieved <b>{acc:.2f}% accuracy</b> on the fixed validation partition. Kaggle late evaluation returned private accuracy 81.70% and public accuracy 83.40%. This was submitted after the deadline and is not an on-time ranked entry.'
     )
     table(
         [
@@ -178,6 +178,7 @@ def main():
                 ),
                 score,
             ],
+            ["Kaggle public score (late)", "83.40%"],
             ["Epochs / selected epoch", f"{len(h)} / {best}"],
             [
                 "Epoch training + validation time",
@@ -339,7 +340,7 @@ def main():
     )
     if kg:
         add(
-            f'Kaggle verification: {escape(str(kg.get("url","")))}<br/>Observed score: {escape(str(kg["score"]))}; submission: {escape(str(kg.get("submission_id","recorded in verification artifact")))}.',
+            f'Kaggle verification: {escape(str(kg.get("url","")))}<br/>Observed private score: {escape(str(kg["score"]))}; public score: 0.83400. Late evaluation; no on-time rank claimed. Team registration confirmed. Submission: {escape(str(kg.get("submission_id","recorded in verification artifact")))}.',
             "SmallX",
         )
     else:

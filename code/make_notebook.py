@@ -45,7 +45,8 @@ if score_file.exists():
     assert kaggle['verified_from_ui'] is True
     score_label = kaggle.get('score_label', 'Kaggle leaderboard test accuracy')
     print(f"{score_label}: {100*float(kaggle['score']):.2f}%")
-    print('A public leaderboard score describes its scored subset; private-test accuracy requires separate verification.')
+    print(f"Kaggle public score (late): {100*kaggle['public_score']:.2f}%")
+    print('Late evaluation; no on-time ranked entry. Team Pengxiao (pengxiao0214), registration confirmed.')
     print('Kaggle record:', kaggle.get('url', 'See verification artifact'))
 else:
     print('Hidden competition test accuracy: not yet verified; validation accuracy is separate.')"""

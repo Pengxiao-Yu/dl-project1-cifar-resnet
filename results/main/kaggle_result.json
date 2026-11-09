@@ -1,0 +1,15 @@
+{
+  "verified_from_ui": true,
+  "score": 0.817,
+  "score_label": "Kaggle private score (late)",
+  "private_score": 0.817,
+  "public_score": 0.834,
+  "late": true,
+  "submission_sha256": "99372484f170abb603a332d753ab8d62e58c726bb745389cd71a05caa94d6413",
+  "url": "https://www.kaggle.com/competitions/cifar-10-res-net-architecture-challenge-dl/submissions",
+  "submission_id": "submission.csv (late submission)",
+  "team_name": "Pengxiao",
+  "username": "pengxiao0214",
+  "team_registration_verified": true,
+  "observed_date": "2026-11-10"
+}

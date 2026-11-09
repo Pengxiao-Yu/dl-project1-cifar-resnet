@@ -2,7 +2,7 @@
 
 Deep Learning Project 1, Fall 2026. Pengxiao Yu (individual project).
 
-**Status: the full 80-epoch local experiment and executed notebook are complete. Code is published at https://github.com/Pengxiao-Yu/dl-project1-cifar-resnet. Kaggle scoring is pending authentication and competition availability. The six-page report was submitted to Brightspace. Kaggle late submission is pending; the report transparently records the unverified score.**
+**Status: the full 80-epoch experiment and executed notebook are complete. Public code: https://github.com/Pengxiao-Yu/dl-project1-cifar-resnet. Kaggle late submission completed: private score 81.70%, public score 83.40%. This is an after-deadline evaluation, with no on-time rank claimed. Team Pengxiao (pengxiao0214) registration is confirmed.**
 
 ## Measured result
 
@@ -14,7 +14,7 @@ Deep Learning Project 1, Fall 2026. Pengxiao Yu (individual project).
 | Training / validation examples | 45,000 / 5,000 |
 | Unlabeled competition predictions | 2,000 rows, sample ID order verified |
 | Epoch training + validation time | 60.64 minutes, Apple M1 Pro / MPS, 16 GiB |
-| Kaggle hidden-test result | **Not verified; validation accuracy is separate** |
+| Kaggle hidden-test result | **Late evaluation: private 81.70%, public 83.40%; validation is separate** |
 
 `results/main/` contains the actual configuration, 80-epoch history, selected-checkpoint summary, validation diagnostics, and figures. `results/verification.json` records the artifact and data-integrity audit. The four code cells in `Project1.ipynb` were executed without errors, including checkpoint inference; its regenerated prediction CSV matched the prior run exactly.
 
@@ -63,7 +63,7 @@ Each completed epoch writes a JSON record and atomic `last.pt`; `best.pt` record
 
 ## Evaluation and artifacts
 
-Validation accuracy is separate from Kaggle test accuracy. The hidden-test score remains unknown until a scored competition submission is observed. `predict.py` preserves sample ID order and records checkpoint and CSV hashes. A leaderboard score, rank, or successful submission is never inferred from local validation. Diagnostics and example errors use the fixed validation partition only.
+Validation accuracy is separate from Kaggle test accuracy. The scored late submission returned private 81.70% and public 83.40%. It is not an on-time ranked entry. `predict.py` preserves sample ID order and records checkpoint and CSV hashes. A leaderboard score, rank, or successful submission is never inferred from local validation. Diagnostics and example errors use the fixed validation partition only.
 
 The executed notebook checks parameter count, prints actual metrics, re-runs inference from the saved checkpoint, and displays learning curves, the validation confusion matrix, and the first twelve validation errors in fixed index order. Run it from the repository root. `execute_notebook.py` uses a temporary kernel specification and does not register a permanent user kernel.
 
