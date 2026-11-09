@@ -17,7 +17,9 @@
   "notebook_errors": 0,
   "report_pages": 6,
   "report_visual_qa": "All six pages inspected; page6 re-rendered and inspected after text correction. No layout defects.",
-  "report_is_review_draft": true,
-  "report_sha256": "6fa1210a9d8f9f5081c500c9e6844c21747a881ae9b466b1b9b983ddee49cc53",
-  "pipeline_exit_code": 0
+  "report_is_review_draft": false,
+  "report_sha256": "50a57d32638a70fae182e2a00bf8226b16ae163cd752e8e4adbc93c413b123b2",
+  "pipeline_exit_code": 0,
+  "github_url": "https://github.com/Pengxiao-Yu/dl-project1-cifar-resnet",
+  "brightspace_submission_id": "11537038"
 }

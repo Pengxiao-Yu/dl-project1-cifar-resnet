@@ -2,7 +2,7 @@
 
 Deep Learning Project 1, Fall 2026. Pengxiao Yu (individual project).
 
-**Status: the full 80-epoch local experiment and executed notebook are complete. Code is published at https://github.com/Pengxiao-Yu/dl-project1-cifar-resnet. Kaggle scoring is pending authentication and competition availability. The report transparently records the unverified score.**
+**Status: the full 80-epoch local experiment and executed notebook are complete. Code is published at https://github.com/Pengxiao-Yu/dl-project1-cifar-resnet. Kaggle scoring is pending authentication and competition availability. The six-page report was submitted to Brightspace. Kaggle late submission is pending; the report transparently records the unverified score.**
 
 ## Measured result
 
