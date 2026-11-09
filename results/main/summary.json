@@ -1,0 +1,17 @@
+{
+  "complete": true,
+  "best_epoch": 77,
+  "validation": {
+    "loss": 0.2063811511993408,
+    "accuracy": 0.951,
+    "correct": 4755,
+    "count": 5000
+  },
+  "parameters": 4368690,
+  "elapsed_seconds": 3638.231567162962,
+  "epochs_completed": 80,
+  "device": "mps",
+  "checkpoint_sha256": "8a9b66c1b3a49e899b9a05b8b5ed9f78898f90fda708b8fc0099816ca08d66a1",
+  "test_accuracy": null,
+  "test_accuracy_note": "Hidden labels: obtain score from Kaggle, never infer it from validation."
+}

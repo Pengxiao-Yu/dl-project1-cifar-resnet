@@ -1,0 +1,23 @@
+{
+  "verified": true,
+  "epochs": 80,
+  "best_epoch": 77,
+  "validation_correct": 4755,
+  "validation_count": 5000,
+  "validation_accuracy": 0.951,
+  "parameters": 4368690,
+  "submission_rows": 2000,
+  "split_disjoint": true,
+  "source_hashes_match": true,
+  "finite_checkpoint": true,
+  "checkpoint_sha256": "8a9b66c1b3a49e899b9a05b8b5ed9f78898f90fda708b8fc0099816ca08d66a1",
+  "submission_sha256": "99372484f170abb603a332d753ab8d62e58c726bb745389cd71a05caa94d6413",
+  "kaggle_score_verified": false,
+  "notebook_code_cells_executed": 4,
+  "notebook_errors": 0,
+  "report_pages": 6,
+  "report_visual_qa": "All six pages inspected; page6 re-rendered and inspected after text correction. No layout defects.",
+  "report_is_review_draft": true,
+  "report_sha256": "6fa1210a9d8f9f5081c500c9e6844c21747a881ae9b466b1b9b983ddee49cc53",
+  "pipeline_exit_code": 0
+}

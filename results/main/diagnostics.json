@@ -1,0 +1,24 @@
+{
+  "validation_count": 5000,
+  "correct": 4755,
+  "accuracy": 0.951,
+  "wilson_95_interval_descriptive": [
+    0.9446624814577625,
+    0.9566450259581397
+  ],
+  "interval_caveat": "Checkpoint selected on this validation set; interval is descriptive, not an independent generalization guarantee.",
+  "class_accuracy": {
+    "airplane": 0.96,
+    "automobile": 0.982,
+    "bird": 0.932,
+    "cat": 0.906,
+    "deer": 0.95,
+    "dog": 0.922,
+    "frog": 0.982,
+    "horse": 0.944,
+    "ship": 0.964,
+    "truck": 0.968
+  },
+  "hidden_test_score": null,
+  "example_policy": "First12 errors in ascending fixed validation index; no hand selection"
+}

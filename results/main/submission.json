@@ -1,0 +1,15 @@
+{
+  "checkpoint_sha256": "8a9b66c1b3a49e899b9a05b8b5ed9f78898f90fda708b8fc0099816ca08d66a1",
+  "submission_sha256": "99372484f170abb603a332d753ab8d62e58c726bb745389cd71a05caa94d6413",
+  "rows": 2000,
+  "parameters": 4368690,
+  "validation_recheck": {
+    "loss": 0.2063811511993408,
+    "accuracy": 0.951,
+    "correct": 4755,
+    "count": 5000
+  },
+  "tta": false,
+  "test_accuracy": null,
+  "note": "CSV predictions only. Hidden test accuracy is verified separately on Kaggle."
+}

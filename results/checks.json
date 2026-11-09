@@ -1,0 +1,9 @@
+{
+  "parameters": 4368690,
+  "budget_pass": true,
+  "residual_identity_pass": true,
+  "finite_gradients_pass": true,
+  "checkpoint_roundtrip_pass": true,
+  "augmentation_no_cross_image_mix_pass": true,
+  "synthetic_only": true
+}

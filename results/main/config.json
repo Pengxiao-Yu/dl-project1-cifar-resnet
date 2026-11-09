@@ -1,0 +1,34 @@
+{
+  "data": "data/competition.npz",
+  "out": "results/main",
+  "epochs": 80,
+  "width": 40,
+  "batch": 128,
+  "lr": 0.1,
+  "seed": 2026,
+  "device": "auto",
+  "max_batches": 0,
+  "parameters": 4368690,
+  "mean": [
+    0.49151359443082787,
+    0.48231470971200985,
+    0.44681383799700436
+  ],
+  "std": [
+    0.24705092701621967,
+    0.24347971893363277,
+    0.26150950634327547
+  ],
+  "torch": "2.14.1",
+  "platform": "macOS-26.6-arm64-arm-64bit",
+  "data_sha256": "26415c9dcadaac912e019034377bc5e41a2a2dba35b3b479fdc2e6cc287a6790",
+  "training_source_sha256": {
+    "model.py": "0aab1e9ac08394b489a4f10f5a1a83b3aa58813cedbae05a2ddece5db95756bd",
+    "train.py": "ce2914dcfc25b8423174c9e54eb870f7094ba278176d57f77b21d041d914ee3e",
+    "prepare_data.py": "13b4adeb8f23b2d80604e6a047345bf80d06a082656879998a7136053cae646e"
+  },
+  "augmentation": "reflect pad4, independent random32 crop, horizontal flip0.5",
+  "label_smoothing": 0.05,
+  "selection": "highest fixed validation accuracy, then lowest validation CE",
+  "pretrained": false
+}

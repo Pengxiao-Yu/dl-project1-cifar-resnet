@@ -1,0 +1,34 @@
+{
+  "source": "Instructor Brightspace announcement Nov 1 2026; identical to Kaggle per announcement",
+  "zip_sha256": "397e06e5752bfe0576d1258765bbe1d020cca02db2fc21442cbab6d50257ca51",
+  "train_shape": [
+    50000,
+    32,
+    32,
+    3
+  ],
+  "test_shape": [
+    2000,
+    32,
+    32,
+    3
+  ],
+  "class_counts": [
+    5000,
+    5000,
+    5000,
+    5000,
+    5000,
+    5000,
+    5000,
+    5000,
+    5000,
+    5000
+  ],
+  "split_seed": 2026,
+  "train_count": 45000,
+  "val_count": 5000,
+  "train_indices_sha256": "7ec888cd36bd8133aeac8b0e5e4640d924a9279cc339e953754720039a344d44",
+  "val_indices_sha256": "ac709c8440322e7870d2d23251d354b94456cf990704ac86c6bd6124ce0f118a",
+  "npz_sha256": "26415c9dcadaac912e019034377bc5e41a2a2dba35b3b479fdc2e6cc287a6790"
+}

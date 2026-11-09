@@ -1,0 +1,13 @@
+data/
+source/
+tmp/
+*.pt
+*.npz
+*.tar.gz
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+STATUS.md
+run_pipeline.py
+results/main/submission.csv
+results/main/submission.logits.npy
