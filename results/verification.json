@@ -21,9 +21,10 @@
   "report_sha256": "1cb543a4b2211a5bc65a28aa1a48675bc2d5e862c8db0c34ecd3185cee6fb9a6",
   "pipeline_exit_code": 0,
   "github_url": "https://github.com/Pengxiao-Yu/dl-project1-cifar-resnet",
-  "brightspace_submission_id": "11537038",
+  "brightspace_submission_id": "11537277",
   "kaggle_private_score": 0.817,
   "kaggle_public_score": 0.834,
   "kaggle_submission_status": "Complete (after deadline)",
-  "team_registration_verified": true
+  "team_registration_verified": true,
+  "brightspace_final_report_bytes": 378631
 }
